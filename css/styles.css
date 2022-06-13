@@ -44,7 +44,6 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-decoration: none;
-
 }
 
 .site-nav .link:hover,
@@ -66,24 +65,42 @@ body {
     color: #2196F3;
  }
 
-
-
-/* .list {
+/* Hero */
+.hero-title {
     font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none
-}
- 
-.list-title.primary {
-    color: var(--primary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* тимчасовий колір бекграунду, бо текст і фон білі */
+    background-color: #757575; 
 }
 
-.list-title.primary {
-    color: var(--secondary-text-color);
-} */
+.button {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button.primary {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+}
+
+/* features */
+.section-title {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* work */
 
 
