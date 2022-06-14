@@ -87,15 +87,25 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     /* тимчасовий колір бекграунду, бо текст і фон білі */
-    background-color: var(--primary-text-color)S   ; 
+    background-color: var(--primary-text-color); 
 }
 
-.button {
-    color: #FFFFFF;
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
     text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: var(--accent-color)
 }
 
-.button.primary {
+.button:hover,
+.button:focus {
     background:var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
