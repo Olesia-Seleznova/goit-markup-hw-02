@@ -260,3 +260,12 @@ background-color: #2F303A;
  .btn-text:focus {
     color: #FFFFFF;
  }
+
+ .magic .link {
+    background-color: #FFFFFF;
+ }
+
+.magic .link:hover,
+.magic .link:focus {
+    background-color: var(--accent-color);
+ }
