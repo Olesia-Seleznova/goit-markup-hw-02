@@ -114,6 +114,7 @@ body {
 /* features */
 .section-title {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -122,14 +123,25 @@ body {
     color: var(--secondary-text-color);
 }
 
-.features list .title {
+.features-list .title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    list-style: none;
     color: var(--secondary-text-color);
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 /* work */
