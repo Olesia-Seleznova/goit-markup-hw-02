@@ -2,6 +2,7 @@
 /* white color^ #FFFFFF */
 /* secondary background colo: #E5E5E5 */
 
+/* index.html css */
 :root {
     --primary-text-color: #757575;
     --secondary-text-color: #212121;
@@ -95,6 +96,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     color: #FFFFFF;
     background: var(--accent-color)
 }
@@ -128,7 +130,6 @@ body {
 
 .text {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -157,7 +158,6 @@ body {
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -199,7 +199,6 @@ background-color: #2F303A;
 .adress-link,
 .contacts-link {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
@@ -212,3 +211,4 @@ background-color: #2F303A;
     color: rgba(255, 255, 255, 0.6);
 }
  
+/* potfolio/css */
