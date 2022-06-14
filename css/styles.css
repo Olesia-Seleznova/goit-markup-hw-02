@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Raleway, Roboto, serif;
+    font-family: Roboto, serif; 
     font-size: 14px;
     font-style: normal;
     color: var(--primary-text-color);
@@ -47,7 +47,6 @@ body {
 }
 
 .site-nav .link {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.07;
@@ -62,7 +61,6 @@ body {
 }
 
 .auth-nav .link {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -78,7 +76,6 @@ body {
 
 /* Hero */
 .hero-title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -91,8 +88,6 @@ body {
 }
 
 .btn {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -113,8 +108,6 @@ body {
 
 /* features */
 .section-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -124,7 +117,6 @@ body {
 }
 
 .features-list .title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -136,7 +128,6 @@ body {
 
 .text {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -145,5 +136,14 @@ body {
 }
 
 /* work */
+.work .link {
+    background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+.work .link:hover,
+.work .link:focus {
+    background: var(--accent-color);
+}
+
 
 
