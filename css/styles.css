@@ -145,5 +145,34 @@ body {
     background: var(--accent-color);
 }
 
+/* team */
+.team {
+    background-color: #FFFFFF;
+    border-radius: 0px;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.photo{
+    display: flex;
+    flex-direction:row;
+    background-color: var(--primary-text-color) ;
+}
 
 
