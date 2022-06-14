@@ -145,6 +145,11 @@ body {
     background: var(--accent-color);
 }
 
+.pic {
+    display: flex;
+    flex-direction: row;;
+}
+
 /* team */
 .team {
     background-color: #FFFFFF;
@@ -175,4 +180,35 @@ body {
     background-color: var(--primary-text-color) ;
 }
 
+/* footer    */
+.footer {
+background-color: #2F303A;
+}
 
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.adress-link,
+.contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+ 
