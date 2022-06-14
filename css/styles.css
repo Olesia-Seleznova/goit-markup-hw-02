@@ -76,7 +76,8 @@ body {
  }
 
 /* Hero */
-.hero-title {
+.hero-title,
+.portfolio-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -228,3 +229,34 @@ background-color: #2F303A;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)
 }
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+}
+
+ .portfolio-btn:hover,
+ .portfolio-btn:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+ }
+
+ .btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+ }
+
+ .btn-text:hover,
+ .btn-text:focus {
+    color: #FFFFFF;
+ }
