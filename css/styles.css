@@ -1,16 +1,18 @@
-/* :root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575; */
-    /* color accent: #2196F3 */
-    /* white color^ #FFFFFF */
-    /* secondary background colo: #E5E5E5 */
+/* color accent: #2196F3 */
+/* white color^ #FFFFFF */
+/* secondary background colo: #E5E5E5 */
+
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: ##2196F3;
 }
 
 body {
-    font-family:Raleway,Roboto, serif;
+    font-family: Raleway, Roboto, serif;
     font-size: 14px;
     font-style: normal;
-    color: #757575;
+    color: var (--primary-text-color);
     background-color: #FFFFFF;
 }
 
@@ -37,7 +39,7 @@ body {
 
 /* site nav */
 .site-nav {
-    color: #212121;
+    color: var (--secondary-text-color);
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -52,7 +54,7 @@ body {
 }
 
 .auth-nav {
-    color: #757575;
+    color: var(--primary-text-color);
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -76,7 +78,7 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     /* тимчасовий колір бекграунду, бо текст і фон білі */
-    background-color: #757575; 
+    background-color: var(--primary-text-color)S   ; 
 }
 
 .button {
@@ -92,13 +94,23 @@ body {
 
 /* features */
 .section-title {
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: -var(--secondary-text-color);
+}
+
+.features list .title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
 }
 
 /* work */
