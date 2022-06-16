@@ -118,7 +118,7 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     color: var(--secondary-text-color);
 }
@@ -137,22 +137,19 @@ body {
     overflow: hidden;
   }
 
-.features-list .title {
+.title {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
+    line-height: 1.14;
     list-style: none;
     color: var(--secondary-text-color);
+    text-transform: uppercase;
 }
 
 .text {
-    font-family: 'Roboto';
     font-size: 14px;
-    line-height: 24px;
-    color: var(--primary-text-color);
+    line-height: 1.71;
 }
-
+    
 /* work */
 .work .link {
     background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
