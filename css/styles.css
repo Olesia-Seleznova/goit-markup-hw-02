@@ -84,8 +84,7 @@ body {
     background-color: #2F303A;
 }
 
-.hero-title,
-.portfolio-title {
+.herro-title {
     font-weight: 900;
     font-size: 44px;
     text-align: center;
@@ -149,20 +148,10 @@ body {
     font-size: 14px;
     line-height: 1.71;
 }
-    
+
 /* work */
 .work .link {
     background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
-}
-
-.work .link:hover,
-.work .link:focus {
-    background: var(--accent-color);
-}
-
-.pic {
-    display: flex;
-    flex-direction: row;;
 }
 
 /* team */
@@ -173,7 +162,7 @@ body {
 
 .team-text {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     color: var(--primary-text-color);
 }
@@ -181,16 +170,16 @@ body {
 .team .title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     color: var(--secondary-text-color);
 }
 
-.photo{
+/* .photo{
     display: flex;
     flex-direction:row;
-    background-color: var(--primary-text-color) ;
-}
+    background-color: var(--primary-text-color);
+} */
 
 /* footer    */
 .footer {
@@ -209,22 +198,26 @@ background-color: #2F303A;
 .adress-link,
 .contacts-link {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     text-decoration: none;
-    text-transform: uppercase;
     color: var(--secondary-background-color) 
 }
 
 .contacts-link {
     color: rgba(255, 255, 255, 0.6);
 }
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color:var(--accent-color);
+}
+
  
 /* potfolio/css */
+
 .main {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
     list-style: none;
     color: var(--secondary-text-color);
@@ -232,14 +225,14 @@ background-color: #2F303A;
 
 .work-text {
     font-size: 16px;
-    line-height: 19px;
-    color: var(--primary-text-color)
+    line-height: 1.19;
+    color: var(--secondary-text-color)
 }
 
 .portfolio-btn {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63px;
+    line-height: 1.63;
     text-align: center;
     cursor: pointer;
     color: var(--secondary-text-color);
@@ -251,18 +244,9 @@ background-color: #2F303A;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
  }
-
- .btn-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: var(--secondary-text-color);
- }
-
- .btn-text:hover,
- .btn-text:focus {
-    color: var(--secondary-background-color);
+ 
+ .active {
+    color: #F5F4FA;
  }
 
  .magic .link {
