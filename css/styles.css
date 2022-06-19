@@ -1,7 +1,3 @@
-/* color accent: #2196F3 */
-/* white color^ #FFFFFF */
-/* secondary background colo: #E5E5E5 */
-
 /* index.html css */
 :root {
     --primary-text-color: #757575;
@@ -46,6 +42,15 @@ body {
     text-decoration: none;
 }
 
+.site-nav {
+display: flex;
+background-color: tomato;
+}
+
+.site-nav .item {
+    margin-right: 50px;
+   
+}
 .site-nav .link {
     font-weight: 500;
     font-size: 14px;
